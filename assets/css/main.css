@@ -15,7 +15,7 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
+		font-family: "Nunito", sans-serif;
 		vertical-align: baseline;
 	}
 
@@ -3323,7 +3323,7 @@
 
 	#header {
 		background-color: transparent;
-		color: #fdd1d1;
+		
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -3338,7 +3338,7 @@
 
 		#header.alt {
 			top: 0;
-			background: #F64747;
+			
 		}
 
 		#header .logo {
@@ -3467,7 +3467,7 @@
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #f64242;
+		background: #AAA8B2;
 		box-shadow: none;
 		color: #ffffff;
 		height: 100%;
@@ -3521,7 +3521,7 @@
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
-			color: #fbb5b5;
+			color: #ffffff;
 			cursor: pointer;
 			display: block;
 			height: 3.25em;
@@ -4179,10 +4179,10 @@
 /* Footer */
 
 	#footer {
-		background-color: #F64747;
+		background-color: #AAA8B2;
 		color: #fdd1d1;
 		padding: 6em 0 4em 0;
-		background: #F64747;
+		background: #AAA8B2;
 	}
 
 		#footer input, #footer select, #footer textarea {
