@@ -1584,12 +1584,14 @@
 
 	.inner {
 		width: 60em;
+		
 	}
 
 	@media screen and (max-width: 1280px) {
 
 		.inner {
 			width: 65em;
+			
 		}
 
 	}
@@ -1598,6 +1600,7 @@
 
 		.inner {
 			width: 80%;
+			
 		}
 
 	}
@@ -1606,6 +1609,7 @@
 
 		.inner {
 			width: 90%;
+		
 		}
 
 	}
