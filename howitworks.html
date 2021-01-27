@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<!--
+	Road Trip by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>How it works?</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html"><span>SDP 21 Team 10</span></a></div>
+				<a href="#menu"><span>Menu</span></a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="team.html">Meet the team</a></li>
+					<li><a href="howitworks.html">How it works?</a></li>
+					<li><a href="specs.html">Tech Specs</a></li>
+					<li><a href="design_review.html">Design Reviews</a></li>
+					<li><a href="final.html">Final Project</a></li>
+				</ul>
+			</nav>
+
+
+		<!-- Main -->
+		<section id="banner" class="bg-img" data-bg="banner6.jpg">
+				<div class="inner box">
+					<article>
+						<header>
+							<h2>How it works?</h2>
+							<blockquote>
+							Learn more about the internals that creates the "Magic" in MagiChess.
+							</blockquote>
+						<br><br>
+						</header>
+					
+					
+				
+						<footer class="center">
+						<a href="#What" class="button small icon fa-arrow-circle-down">Learn more</a>
+						</footer>
+					</article>
+				</div>
+		</section>
+			
+		
+		<div id="What" class="wrapper post bg-img" data-bg="banner6.jpg">
+			<div class="inner">
+			<div class="box">
+			<h2>
+			What is MagiChess?
+			</h2>
+			<blockquote>
+			MagiChess is a computer chess robot that allows the user to play a game of <b> physical chess </b>versus a remote opponent over the internet.
+			
+			We’ve decided to close the gap between physical and digital chess. To do this, we plan to create a chess board that allows users to play with an AI or a remote human opponent.
+			
+</blockquote>
+			
+			</div>
+			</div>
+		</div>
+		
+		
+		
+<div id="interfacing" class="wrapper post bg-img" data-bg="banner6.jpg">
+			<div class="inner">
+			<div class="box">
+			<h3>
+			Interfacing with LiChess Server and User
+			</h3>
+	
+		
+				<div class="center">
+					<p>
+							In order to communicate over the internet, process information, control movements and recieve user input, a Raspberry Pi is used. A Raspberry Pi is a credit-card sized computer with General Purpose Input/Output (GPIO) pins to allow for interfacing with other electronic systems. WiFi is used to connect the Pi over the internet to talk with Lichess chess server and the GPIO pins are used for controlling XY-Gantry movements and magnetic sensor input. The touch screen displays current game information and notifications as well as accepting user inputs for game and system settings. 
+					</p>	
+										
+				</div>
+		
+			</div>
+			</div>
+			</div>
+		
+<div id="move1" class="wrapper post bg-img" data-bg="banner6.jpg">
+			<div class="inner">
+			<div class="box">
+			
+	
+			<center>
+				<div class="center">
+					<table>
+			<tr>
+			
+			<th class = "3u">
+			<br />
+			<span class="image fit">
+			<img  src="images/Chess Exploded.png" alt="Chess piece with embedded magnet and RFID Tag inside." />
+			</span>
+	
+			<br />
+			</th>
+			<th>
+			<br>
+			<h3>
+			<br>
+			Making Movements: The Chess Piece
+			</h4>
+			<p >
+			Each chess piece is fitted with a magnet to aid moving and a RFID tag for unique identification. When placed on the chess board, the magnet will trigger the sensors used to monitor moves made by the user. The magnet is also used in moving chess pieces with an electromagnet under the chessboard.
+			</p>
+			</th>							
+			</tr>
+					</table>				
+				</div>
+			</center>
+			</div>
+			</div>
+</div>		
+<div id="move3" class="wrapper post bg-img" data-bg="banner6.jpg">
+			<div class="inner">
+			<div class="box">
+			
+	
+			<center>
+				<div class="center">
+					<table>
+			<tr>
+			
+			<th class = "3u">
+			<br />
+			<span class="image fit"><br/>
+			<img  src="images/gantry.jpg" alt="Gantry Photo" />
+			</span>
+	
+			<br />
+			</th>
+			<th>
+			<br>
+			<h3>
+			<br>
+			Making Movements: The Gantry
+			</h4>
+			<p >
+			XY-Gantry will be placed under the chessboard. An electromagnet is attached to the gantry and when turned on, it will attract to the magnet embedded in the chess piece. The gantry will then move, following a path sent from the path planning algorithm on the Raspberry Pi. Two stepper motors and drivers, an electromagnet, an RFID reader and a Microcontroller works together to control movements on the XY-Gantry.
+			
+			</p>
+			</th>							
+			</tr>
+					</table>				
+				</div>
+			</center>
+			</div>
+			</div>
+</div>	
+
+<div id="sense" class="wrapper post bg-img" data-bg="banner6.jpg">
+			<div class="inner">
+			<div class="box">
+			
+	
+			<center>
+				<div class="center">
+					<table>
+			<tr>
+			
+			<th class = "3u">
+			<br />
+			<span class="image fit"><br/>
+			<img  src="images/gantry.jpg" alt="Gantry Photo" />
+			</span>
+	
+			<br />
+			</th>
+			<th>
+			<br>
+			<h3>
+			<br>
+			Making Movements: Path Planning Algorithm
+			</h4>
+			<p >
+			XY-Gantry will be placed under the chessboard. An electromagnet is attached to the gantry and when turned on, it will attract to the magnet embedded in the chess piece. The gantry will then move, following a path sent from the path planning algorithm on the Raspberry Pi. Two stepper motors and drivers, an electromagnet, an RFID reader and a Microcontroller works together to control movements on the XY-Gantry.
+			</p>
+			</th>							
+			</tr>
+					</table>				
+				</div>
+			</center>
+			</div>
+			</div>
+</div>	
+
+</div>		
+<div id="move2" class="wrapper post bg-img" data-bg="banner6.jpg">
+			<div class="inner">
+			<div class="box">
+			
+	
+			<center>
+				<div class="center">
+					<table>
+			<tr>
+			
+			<th class = "3u">
+			<br />
+			<span class="image fit">
+			<br>
+			<img  src="images/sensor.jpg" alt="Graphic explaining Path Planning" />
+			</span>
+	
+			<br />
+			</th>
+			<th>
+			<br>
+			<h3>
+			<br>
+			
+			Sensing Movements: The Hall Sensor Array
+			</h4>
+			<p >
+			When the remote player makes a move, the move is sent to the path planning algorithm. It'll then use the current positions of chess pieces to plan a clear and a short path that will reflect the move made by the remote player. The program uses Greedy Best First Search algorithm and runs on the Raspberry Pi. The path is then sent to the microcontroller on gantry via UART.
+			
+			</p>
+			</th>							
+			</tr>
+					</table>				
+				</div>
+			</center>
+			</div>
+			</div>
+</div>	
+
+
+		
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+
+					
+					<ul class="icons">
+					<h2>Team Resources And Links</h2>
+						<li><a href="https://github.com/degugj/lichessTesting" class="icon round fa-github"><span class="label"></span></a></li>
+						<li><a href="https://www.youtube.com/channel/UCYJXzD3qBwgGfacTnuPucgQ" class="icon round fa-youtube-play"><span class="label"></span></a></li>
+						<li><a href="mailto://sdpteam10@gmail.com" class="icon round fa-envelope"><span class="label"></span></a></li>
+					</ul>
+
+					<div class="copyright">
+						 Magichess &copy; 2021. <br>
+						 Design: <a href="https://templated.co/roadtrip">TEMPLATED.co</a>. Images: <a href="https://unsplash.com">Unsplash</a>.<br>
+						Question Mark Photo by <a href="https://unsplash.com/@emilymorter">Emily Morter</a>.
+						 
+					</div>
+
+				</div>
+			</footer>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+	</body>	
+</html>
